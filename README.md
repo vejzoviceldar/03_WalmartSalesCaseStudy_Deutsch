@@ -2,45 +2,45 @@
 
 ## **Executive Summary**:
 
-**Objective**:  
-This Case Study analyzes how various factors influence the weekly sales performance of **45 Walmart stores**.
+**Objektiv**:  
+Diese Case Study analysiert, wie verschiedene Faktoren die wöchentliche Verkaufsleisting von **45 Walmart Filialen** beeinflussen.  
 
-**Data Overview**:  
-The analysis uses Kaggle’s Walmart weekly sales data from **2010–2012**, including store-level sales, holidays, CPI, fuel prices, unemployment rate, and temperature.
+**Daten Überblick**:  
+Die Analyse basiert auf den wöchentlichen Verkaufsdaten von Walmart aus **2010–2012** (Kaggle), einschließlich Filialumsätzen, Feiertagen, CPI, Kraftstoffpreisen, Arbeitslosenquote und Temperatur.  
 
 **Key Insights**:  
-1.	**Seasonality Peak**: Data shows that the Q4 holiday window (**Nov 25 – Dec 25**) is the critical driver of annual revenue, generating **$308M** in 2010 and **$314M**  in 2011.
-2.	**External Factors Resilience**: This analysis also shows that correlations between sales and external factors like CPI, Fuel Prices, and Temperature are consistently near zero. The most notable relationship is with the Unemployment Rate **(-0.11)**, which is still a very weak negative correlation. This suggest that Walmart’s “**Everyday Low Price**” strategy is relatively resilient to extern economic and environmental factors. 
+1. Saisonale Spitzen: Die Daten zeigen, dass das Q4 Feiertagsfenster **(25. Nov – 25. Dez)** der wichtigste Umsatztreiber ist, mit **$308 Mio**. im Jahr 2010 und **$314 Mio**. im Jahr 2011.
+2. Resilienz gegenüber externen Faktoren: Die Analyse zeigt, dass die Korrelationen zwischen Umsatz und externen Faktoren wie CPI, Kraftstoffpreisen und Temperatur nahe null liegen. Die stärkste Beziehung besteht zur Arbeitslosenquote **(-0,11)**, was jedoch ebenfalls eine sehr schwache negative Korrelation ist. Das deutet darauf hin, dass Walmarts **„Everyday Low Price“** Strategie relativ robust gegenüber externen wirtschaftlichen und Umweltfaktoren ist.
 
-**Recommendations**:  
-1.	Increase inventory and staffing ahead of the Q4 holiday period
-2.	Prioritize promotional campaigns during peak seasonal windows
+**Empfehlungen**:  
+1. Lagerbestände und Personal vor der Q4-Feiertagssaison erhöhen
+2. Marketing- und Promotionskampagnen gezielt in saisonalen Spitzphasen priorisieren
 
-### **Business Task**:  
+### **Aufgabe**:  
 
-##### *Analyze how various factors influence the weekly sales performance of 45 Walmart stores*
+##### *Analysiere, wie verschiedene Faktoren die wöchentliche Verkaufsperformance von 45 Walmart Filialen beeinflussen*
 
-This interactive Power BI dashboard visualizes sales performance across **45 stores**, highlighting a **$6.7bn** total revenue with significant seasonal peaks during holiday weeks.  
-By analyzing correlations between sales and external factors like CPI, fuel prices, and temperature, the report identifies that these macroeconomic shifts have **low impact** on Walmart's core revenue.  
+Dieses interaktive Power BI Dashboard visualisiert die Verkaufsperformance über **45 Filialen** hinweg und zeigt einen Gesamtumsatz von **6,7 Mrd. $**, mit deutlichen saisonalen Peaks während der Feiertage.
+Durch die Analyse der Korrelationen zwischen Umsatz und externen Faktoren wie CPI, Kraftstoffpreisen und Temperatur wird deutlich, dass diese makroökonomischen Einflüsse nur geringe Auswirkungen auf den Kernumsatz von Walmart haben.  
 
 ![image1](03_WalmartSales_Case_Study/16_Final_Dashboard.png)  
 
-### **Methodology**:
-1. Extracted & organized the dataset, reviewed dataset structure and variables
-2. Evaluated dataset reliability using the ROCCC framework (Relevant, Objective, Complete, Consistent, Current)
-3. Checked for null values and duplicate rows, validated data accuracy and consistency in SQL
-4. Calculated correlations & variance, and extracted the required data for dashboards using SQL queries
-5. Built basic and interactive dashboards in Power BI
+### **Methodologie**:
+1. Datensatz extrahiert & organisiert, Datenstruktur und Variablen überprüft
+2. Datenqualität mit dem ROCCC-Framework bewertet (Relevant, Objective, Complete, Consistent, Current)
+3. NULL Werte und Duplikate geprüft, Datenkonsistenz und validität in SQL sichergestellt
+4. Korrelationen und Varianz berechnet und benötigte Daten für Dashboards über SQL Queries extrahiert
+5. Einfache und interaktive Dashboards in Power BI erstellt
 
 ### **Skills**:
-    SQL: Data validation, trend analysis, CTEs & data transformation
-    Power BI: Data  transformation, interactive dashboard creation and data visualization
-    PowerPoint: Designing easy-to-understand presentations with highlighted key insights
-    Jupyter Notebook: Markdown documentation
+  SQL: Datenvalidierung, Trendanalyse, CTEs & Daten-Transformation
+  Power BI: Datenaufbereitung, Erstellung interaktiver Dashboards und Datenvisualisierung
+  PowerPoint: Gestaltung von einfachen, verständlichen Präsentationen mit Fokus auf Key Insights
+  Jupyter Notebook: Markdown Dokumentation
 
 **Quick SQL Code**:
 ```
--- TASK 13: Calculate correlation between Weekly Sales vs Temperature, Fuel_Price, CPI and Unemployment and create the View
+-- AUFGABE 13: Korrelation zwischen Weekly Sales und Temperature, Fuel_Price, CPI und Unemployment berechnen und View erstellen
 ----------------------------------------------------------------
 CREATE OR REPLACE VIEW `walmartproject-03.Walmart_Dataset.Sales_vs_MacroeconomicFactors_Correlation`
 AS
@@ -54,49 +54,49 @@ AS
 ----------------------------------------------------------------
 ```
 
-### **Results & Business Recommendation**:
-The analysis shows that the Q4 holiday window (**Nov 25 – Dec 25**) is the primary driver of annual sales performance. During this period, sales significantly increase compared to the yearly averages, highlighting the importance of seasonal demand.  
-The analysis also shows that external economic and environmental factors such as Temperature, Fuel Prices, and CPI have **very weak correlations** with sales, indicating little to no measurable impact. The strongest observed relationship is with the Unemployment Rate, but the correlation remains **very weak**.  
-These findings suggest that Walmart’s “**Everyday Low Price**” strategy helps maintain stable demand regardless of external economic fluctuations.  
+### **Ergebnisse und Empfehlungen**:
+Die Analyse zeigt, dass das Q4 Feiertagsfenster **(25. Nov – 25. Dez)** der wichtigste Treiber der jährlichen Sales-Leistung ist. In diesem Zeitraum steigen die Verkäufe deutlich über den Jahresdurchschnitt, was die starke Bedeutung der saisonalen Nachfrage klar bestätigt.  
+Zusätzlich zeigt die Analyse, dass externe wirtschaftliche und Umweltfaktoren wie Temperatur, Spritzpreise und CPI nur sehr schwache Korrelationen mit den Sales haben, also kaum messbaren Einfluss. Die stärkste (aber trotzdem sehr schwache) Beziehung besteht noch zur Arbeitslosenrate (Unemployment Rate).  
+Diese Ergebnisse deuten darauf hin, dass die **"Everyday Low Price"** Strategie von Walmart hilft, eine stabile Nachfrage unabhängig von externen wirtschaftlichen Schwankungen zu halten. 
 
-1. Dashboard overview of the best performing store (**Store 20**)  
+1. Dashboard überblick vom Leistungsstärkste Filiale (**Store 20**) 
 
 ![image2](03_WalmartSales_Case_Study/17_Best_Performing_Store_Final_Dashboard.png)
 
 ---
 
-2. Sales trendline highlighting holiday seasonality impact (**Nov 25 – Dec 25**)
+2. Sales Trendline mit Fokus auf Ferienzeitsauswirkungen (**25. Nov – 25. Dez**)
 
 ![image3](03_WalmartSales_Case_Study/08_HolidayWeeks_vs_NonHolidayWeeks.png)
 
 ---
 
-3. Trendline comparison between overall **System Average** and **Individual Store Averages**
+3. Vergleich zwischen **System Durchschnitt** und **Individuele Filiale**
 
 ![image4](03_WalmartSales_Case_Study/06_Average_Monthly_Sales.png)
 
 ---
 
-4. Store volatility comparison incl. **most and least** volatile stores  
+4. Volatilitätsanalyse von Filialen. **Am stärksten und am wenigsten** volatile Filialen  
 
 ![image5](03_WalmartSales_Case_Study/14_Most_vs_Least_Volatile_Stores.png)
 
 **Key Insights**:  
-•	Sales increase sharply during the **Nov 25 – Dec 25** period    
-•	Holiday season contributes the largest portion of **annual revenue**, making seasonal planning critical     
-•	CPI, Fuel Prices, Temperature and Unemployment Rate show **very weak correlation** with weekly sales   
+• Sales steigen stark im Zeitraum **25. Nov – 25. Dez**
+• Ferienzeit ist der größte Treiber für Jährliche Umsatz, daher extrem wichtig für Planung
+• CPI, Fuel Prices, Temperature und Unemployment zeigen sehr schwache Korrelationen zu Weekly Sales
 
-**Recommendations**:  
-•	Increase inventory and staffing ahead of the Q4 holiday window      
-•	Launch targeted marketing campaigns and promotions during peak holiday weeks    
-•	Analyze top-performing stores (like **Store 20**) to replicate successful strategies across other locations     
-•	Identify low-performing or volatile stores for improvement opportunities        
-•	Use seasonal trends to inform marketing spend allocation, promotion timing, and inventory distribution      
-•	Monitor and update forecasts yearly to account for changing seasonal patterns   
+**Empfehlungen**:  
+• Inventar und Personalesetzung vor dem Q4 Ferienzeitfenster deutlich erhöhen
+• Gezielte Marketing- und Promotionsmaßnahmen genau in den Spitzenwochen einsetzen
+• Top Fililen (z.B. Filiale 20) analysieren und beste Methoden auf andere Standorte übertragen
+• Low-performing bzw. volatile Filialen gezielt verbessern und stabilisieren
+• Saisonale Trends für Marketingbudget, Promotion-Timing und Lagerverteilung nutzen
+• Prognose jährlich aktualisieren, um saisonale Veränderungen sauber abzubilden
 
-### **Next Steps**:
-•	Include more recent sales data to ensure insights reflect current trends    
-•	Add store-level information such as location, size and demographics for deeper regional analysis    
-•	Include variables such as promotions, competitor activity or local events   
-•	Use insights to guide inventory planning, staffing and marketing campaigns, particularly during peak holiday periods    
-•	Set up dashboards to track sales, seasonal trends and external factors in real-time     
+### **Nächste Schritte**:
+•	Mehr aktuelle Verkaufsdaten integrieren, um Trends realistischer abzubilden
+• Filialen Merkmale (Standort, Große, Demografie) hinzufügen für tiefere Analyse
+• Externe Faktoren wie Promotionen, Konkurrenzaktivität oder lokale Veranstaltungen ergänzen
+• Insights direkt in Inventar, Personalbesetzung und Marketingplanung einbauen (vor allem Q4)
+• Echtzeit-Dashboards für Sales, Saisonalität und externe Faktoren aufsetzen
