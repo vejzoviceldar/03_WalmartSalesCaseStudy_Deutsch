@@ -95,8 +95,9 @@ Diese Ergebnisse deuten darauf hin, dass die **"Everyday Low Price"** Strategie 
 • Prognose jährlich aktualisieren, um saisonale Veränderungen sauber abzubilden
 
 ### **Nächste Schritte**:
-•	Mehr aktuelle Verkaufsdaten integrieren, um Trends realistischer abzubilden
-• Filialen Merkmale (Standort, Große, Demografie) hinzufügen für tiefere Analyse
-• Externe Faktoren wie Promotionen, Konkurrenzaktivität oder lokale Veranstaltungen ergänzen
-• Insights direkt in Inventar, Personalbesetzung und Marketingplanung einbauen (vor allem Q4)
-• Echtzeit-Dashboards für Sales, Saisonalität und externe Faktoren aufsetzen
+•	Mehr aktuelle Verkaufsdaten integrieren, um Trends realistischer abzubilden  
+• Filialen Merkmale (Standort, Große, Demografie) hinzufügen für tiefere Analyse  
+• Externe Faktoren wie Promotionen, Konkurrenzaktivität oder lokale Veranstaltungen ergänzen  
+• Insights direkt in Inventar, Personalbesetzung und Marketingplanung einbauen (vor allem Q4)  
+• Echtzeit-Dashboards für Sales, Saisonalität und externe Faktoren aufsetzen  
+  
