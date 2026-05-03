@@ -20,7 +20,7 @@ Die Analyse basiert auf den wöchentlichen Verkaufsdaten von Walmart aus **2010�
 
 ##### *Analysiere, wie verschiedene Faktoren die wöchentliche Verkaufsperformance von 45 Walmart Filialen beeinflussen*
 
-Dieses interaktive Power BI Dashboard visualisiert die Verkaufsperformance über **45 Filialen** hinweg und zeigt einen Gesamtumsatz von **6,7 Mrd. $**, mit deutlichen saisonalen Peaks während der Feiertage.
+Dieses interaktive Power BI Dashboard visualisiert die Verkaufsperformance über **45 Filialen** hinweg und zeigt einen Gesamtumsatz von **6,7 Mrd. $**, mit deutlichen saisonalen Peaks während der Feiertage.  
 Durch die Analyse der Korrelationen zwischen Umsatz und externen Faktoren wie CPI, Kraftstoffpreisen und Temperatur wird deutlich, dass diese makroökonomischen Einflüsse nur geringe Auswirkungen auf den Kernumsatz von Walmart haben.  
 
 ![image1](03_WalmartSales_Case_Study/16_Final_Dashboard.png)  
@@ -56,7 +56,9 @@ AS
 
 ### **Ergebnisse und Empfehlungen**:
 Die Analyse zeigt, dass das Q4 Feiertagsfenster **(25. Nov – 25. Dez)** der wichtigste Treiber der jährlichen Sales-Leistung ist. In diesem Zeitraum steigen die Verkäufe deutlich über den Jahresdurchschnitt, was die starke Bedeutung der saisonalen Nachfrage klar bestätigt.  
+
 Zusätzlich zeigt die Analyse, dass externe wirtschaftliche und Umweltfaktoren wie Temperatur, Spritzpreise und CPI nur sehr schwache Korrelationen mit den Sales haben, also kaum messbaren Einfluss. Die stärkste (aber trotzdem sehr schwache) Beziehung besteht noch zur Arbeitslosenrate (Unemployment Rate).  
+
 Diese Ergebnisse deuten darauf hin, dass die **"Everyday Low Price"** Strategie von Walmart hilft, eine stabile Nachfrage unabhängig von externen wirtschaftlichen Schwankungen zu halten. 
 
 1. Dashboard überblick vom Leistungsstärkste Filiale (**Store 20**) 
@@ -82,17 +84,17 @@ Diese Ergebnisse deuten darauf hin, dass die **"Everyday Low Price"** Strategie 
 ![image5](03_WalmartSales_Case_Study/14_Most_vs_Least_Volatile_Stores.png)
 
 **Key Insights**:  
-• Sales steigen stark im Zeitraum **25. Nov – 25. Dez**
-• Ferienzeit ist der größte Treiber für Jährliche Umsatz, daher extrem wichtig für Planung
-• CPI, Fuel Prices, Temperature und Unemployment zeigen sehr schwache Korrelationen zu Weekly Sales
+• Sales steigen stark im Zeitraum **25. Nov – 25. Dez**  
+• Ferienzeit ist der größte Treiber für Jährliche Umsatz, daher extrem wichtig für Planung  
+• CPI, Fuel Prices, Temperature und Unemployment zeigen sehr schwache Korrelationen zu Weekly Sales  
 
 **Empfehlungen**:  
-• Inventar und Personalesetzung vor dem Q4 Ferienzeitfenster deutlich erhöhen
-• Gezielte Marketing- und Promotionsmaßnahmen genau in den Spitzenwochen einsetzen
-• Top Fililen (z.B. Filiale 20) analysieren und beste Methoden auf andere Standorte übertragen
-• Low-performing bzw. volatile Filialen gezielt verbessern und stabilisieren
-• Saisonale Trends für Marketingbudget, Promotion-Timing und Lagerverteilung nutzen
-• Prognose jährlich aktualisieren, um saisonale Veränderungen sauber abzubilden
+• Inventar und Personalesetzung vor dem Q4 Ferienzeitfenster deutlich erhöhen  
+• Gezielte Marketing- und Promotionsmaßnahmen genau in den Spitzenwochen einsetzen  
+• Top Fililen (z.B. Filiale 20) analysieren und beste Methoden auf andere Standorte übertragen  
+• Low-performing bzw. volatile Filialen gezielt verbessern und stabilisieren  
+• Saisonale Trends für Marketingbudget, Promotion-Timing und Lagerverteilung nutzen  
+• Prognose jährlich aktualisieren, um saisonale Veränderungen sauber abzubilden  
 
 ### **Nächste Schritte**:
 •	Mehr aktuelle Verkaufsdaten integrieren, um Trends realistischer abzubilden  
