@@ -83,12 +83,12 @@ Diese Ergebnisse deuten darauf hin, dass die **"Everyday Low Price"** Strategie 
 
 ![image5](03_WalmartSales_Case_Study/14_Most_vs_Least_Volatile_Stores.png)
 
-**Key Insights**:  
+### **Key Insights**:  
 • Sales steigen stark im Zeitraum **25. Nov – 25. Dez**  
 • Ferienzeit ist der größte Treiber für Jährliche Umsatz, daher extrem wichtig für Planung  
 • CPI, Fuel Prices, Temperature und Unemployment zeigen sehr schwache Korrelationen zu Weekly Sales  
 
-**Empfehlungen**:  
+### **Empfehlungen**:  
 • Inventar und Personalesetzung vor dem Q4 Ferienzeitfenster deutlich erhöhen  
 • Gezielte Marketing- und Promotionsmaßnahmen genau in den Spitzenwochen einsetzen  
 • Top Fililen (z.B. Filiale 20) analysieren und beste Methoden auf andere Standorte übertragen  
