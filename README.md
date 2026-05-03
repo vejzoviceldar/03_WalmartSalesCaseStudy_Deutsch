@@ -18,7 +18,7 @@ Die Analyse basiert auf den wöchentlichen Verkaufsdaten von Walmart aus **2010�
 
 ### **Aufgabe**:  
 
-##### *Analysiere, wie verschiedene Faktoren die wöchentliche Verkaufsperformance von 45 Walmart Filialen beeinflussen*
+#### *Analysiere, wie verschiedene Faktoren die wöchentliche Verkaufsperformance von 45 Walmart Filialen beeinflussen*
 
 Dieses interaktive Power BI Dashboard visualisiert die Verkaufsperformance über **45 Filialen** hinweg und zeigt einen Gesamtumsatz von **6,7 Mrd. $**, mit deutlichen saisonalen Peaks während der Feiertage.  
 Durch die Analyse der Korrelationen zwischen Umsatz und externen Faktoren wie CPI, Kraftstoffpreisen und Temperatur wird deutlich, dass diese makroökonomischen Einflüsse nur geringe Auswirkungen auf den Kernumsatz von Walmart haben.  
@@ -33,10 +33,10 @@ Durch die Analyse der Korrelationen zwischen Umsatz und externen Faktoren wie CP
 5. Einfache und interaktive Dashboards in Power BI erstellt
 
 ### **Skills**:
-  SQL: Datenvalidierung, Trendanalyse, CTEs & Daten-Transformation
-  Power BI: Datenaufbereitung, Erstellung interaktiver Dashboards und Datenvisualisierung
-  PowerPoint: Gestaltung von einfachen, verständlichen Präsentationen mit Fokus auf Key Insights
-  Jupyter Notebook: Markdown Dokumentation
+  SQL: Datenvalidierung, Trendanalyse, CTEs & Daten-Transformation  
+  Power BI: Datenaufbereitung, Erstellung interaktiver Dashboards und Datenvisualisierung  
+  PowerPoint: Gestaltung von einfachen, verständlichen Präsentationen mit Fokus auf Key Insights  
+  Jupyter Notebook: Markdown Dokumentation  
 
 **Quick SQL Code**:
 ```
